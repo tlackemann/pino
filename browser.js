@@ -4,7 +4,7 @@ var format = require('quick-format-unescaped')
 
 module.exports = pino
 
-var _console = global.console || {}
+var _console = console || {}
 
 function pino (opts) {
   opts = opts || {}
